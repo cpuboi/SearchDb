@@ -2,7 +2,7 @@
 SearchDB is a dict like object that is backed by SQLite
 With the .search* functions it enables you to use fast text search, i.e. a lightweight search engine.
 
-Version 0.1.3
+Version 1.0.0
 """
 
 import json
@@ -11,6 +11,7 @@ import sqlite3
 from binascii import crc32
 from typing import List, Dict, Union, Iterable, Tuple
 
+__version__ = '1.0.0'
 
 class SearchDbInit:
     """
